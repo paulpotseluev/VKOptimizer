@@ -1,7 +1,9 @@
 // ==UserScript==
 // @name         VK Optimizer
 // @namespace    http://vk.com/
-// @version      0.3
+// @updateURL   https://github.com/paulpotseluev/VKOptimizer/raw/master/VKoptimizer.user.js
+// @downloadURL https://github.com/paulpotseluev/VKOptimizer/raw/master/VKoptimizer.user.js
+// @version      0.31
 // @description  Скрипт, изменяющий внешний вид страницы ВКонтакте с новым дизайном для более удобного восприятия.
 // @author       Paul Potseluev
 // @match        https://new.vk.com/*
