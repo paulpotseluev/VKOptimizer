@@ -3,7 +3,7 @@
 // @namespace    http://vk.com/
 // @updateURL   https://github.com/paulpotseluev/VKOptimizer/raw/master/VKoptimizer.user.js
 // @downloadURL https://github.com/paulpotseluev/VKOptimizer/raw/master/VKoptimizer.user.js
-// @version      0.42.1
+// @version      0.42.3
 // @description  Скрипт, изменяющий внешний вид страницы ВКонтакте с новым дизайном для более удобного восприятия.
 // @author       Paul Potseluev
 // @match        https://new.vk.com/*
@@ -34,6 +34,9 @@ addGlobalStyle('.reply_field {font-family: Arial !important;color: #000 !importa
 //Исправляем внешний вид иконки "Онлайн"
 addGlobalStyle('.online::after {bottom: 5%;right: 3%;border: 1px solid rgba(221, 255, 216, 0.79);height: 6px;width: 6px;}');
 addGlobalStyle('.chat_tab_imgcont.online:after {bottom: 1px;right: 1px;border: 1px solid #fff;height: 5px;width: 5px;}');
+addGlobalStyle('.friends_user_row .online:after {width: 6px; height: 6px}');
+addGlobalStyle('.friends_user_row .online.mobile:after {height:10px;width:6px;bottom:4%;right:6%}');
+addGlobalStyle('.friends_user_row .online:after {border: 2px solid #fff}');
 //Исправляем счётчик сообщений в чате
 addGlobalStyle('.chat_tab_counter {top: 6px;left: 6px;height: 8px;min-width: 5px;border-radius: 6px;padding: 3px 3px;font-size: 11px;}');
 //Убираем круглые аватарки и прочие элементы
