@@ -31,10 +31,8 @@ addGlobalStyle('.im-chat-input--text {font-family: Arial !important;color: #000 
 addGlobalStyle('#post_field {font-family: Arial !important;color: #000 !important;}');
 //...Шрифт окна комментов тоже меняем
 addGlobalStyle('.reply_field {font-family: Arial !important;color: #000 !important;}');
-//В меню сообщений прилепим правое меню к правой части страницы, освободив место для колонки сообщений
-addGlobalStyle('.im-right-menu.ui_rmenu {right:20px !important}');
 //Исправляем внешний вид иконки "Онлайн"
-addGlobalStyle('.online::after {bottom: 1%;right: 1%;border: 1px solid rgba(221, 255, 216, 0.79);height: 6px;width: 6px;}');
+addGlobalStyle('.online::after {bottom: 5%;right: 3%;border: 1px solid rgba(221, 255, 216, 0.79);height: 6px;width: 6px;}');
 addGlobalStyle('.chat_tab_imgcont.online:after {bottom: 1px;right: 1px;border: 1px solid #fff;height: 5px;width: 5px;}');
 //Исправляем счётчик сообщений в чате
 addGlobalStyle('.chat_tab_counter {top: 6px;left: 6px;height: 8px;min-width: 5px;border-radius: 6px;padding: 3px 3px;font-size: 11px;}');
