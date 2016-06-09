@@ -26,4 +26,4 @@ addGlobalStyle('#profile_photos_module {height:40px !important}');
 //Скрываем фотографии с экрана
 addGlobalStyle('.crisp_image {display:none !important}');
 //Изменяем шрифт в окне диалогов:
-addGlobalStyle('.im-chat-input--text {font-family: Arial !important;color: #b4b8bb !important;}')
+addGlobalStyle('.im-chat-input--text {font-family: Arial !important;color: #b4b8bb !important;}');
