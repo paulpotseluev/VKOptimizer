@@ -3,7 +3,7 @@
 // @namespace    http://vk.com/
 // @updateURL   https://github.com/paulpotseluev/VKOptimizer/raw/master/VKoptimizer.round.user.js
 // @downloadURL https://github.com/paulpotseluev/VKOptimizer/raw/master/VKoptimizer.round.user.js
-// @version      0.4
+// @version      0.42.2
 // @description  Скрипт, изменяющий внешний вид страницы ВКонтакте с новым дизайном для более удобного восприятия. Аватарки и фотографии — круглые.
 // @author       Paul Potseluev
 // @match        https://new.vk.com/*
