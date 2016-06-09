@@ -41,7 +41,7 @@ addGlobalStyle('.friends_user_row .online:after {border: 2px solid #fff}');
 //Исправляем счётчик сообщений в чате
 addGlobalStyle('.chat_tab_counter {top: 6px;left: 6px;height: 8px;min-width: 5px;border-radius: 6px;padding: 3px 3px;font-size: 11px;}');
 //Убираем круглые аватарки и прочие элементы
-addGlobalStyle('.nim-peer--photo-w,.top_profile_img,.reply_img,.copy_post_img,.post_img,.cell_img,.people_cell_img,.group_box_image_link,.cell_img,.thumb,.poll_tt_image,.like_tt_image,.group_row_photo,.right_list_img,.page_video_play_icon,.chat_tab_img,.profile_career_img,.mention_tt_img,.audio_page_player_play.icon,.ow_ava.ow_ava_mid,.feedback_img,.friends_common_img {border-radius:10% !important}');
+addGlobalStyle('.nim-peer--photo-w,.top_profile_img,.reply_img,.copy_post_img,.post_img,.cell_img,.people_cell_img,.group_box_image_link,.cell_img,.thumb,.poll_tt_image,.like_tt_image,.group_row_photo,.right_list_img,.page_video_play_icon,.chat_tab_img,.profile_career_img,.mention_tt_img,.audio_page_player_play.icon,.ow_ava.ow_ava_mid,.feedback_img,.friends_common_img,.notifier_image {border-radius:10% !important}');
 addGlobalStyle('.audio_play {border-radius:10% !important; width: 20px !important; height: 20px !important; background: #577ca1 url(/images/icons/audio_playpause.png) no-repeat 6px 5px !important; margin-top:2px !important}');
 addGlobalStyle('.audio_info {line-height:10px !important}');
 addGlobalStyle('a.fc_msgs_img,img.fc_contact_photo,.mention_tt_person_img,.thumb_off,.thumb_on,.ow_ava.ow_ava_small,.feedback_group_photo_img,.audio_page_player_play .icon {border-radius:15% !important}');
