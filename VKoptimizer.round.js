@@ -30,4 +30,4 @@ addGlobalStyle('.im-chat-input--text {font-family: Arial !important;color: #000 
 //Изменяем шрифт в окне создания поста
 addGlobalStyle('#post_field,.like_share_text {font-family: Arial !important;color: #000 !important;}');
 //...Шрифт окна комментов тоже меняем
-addGlobalStyle('.reply_field {font-family: Arial !important;color: #000 !important;}');
+addGlobalStyle('.reply_field {font-family: Arial !important;color: #000 !important;}');\
