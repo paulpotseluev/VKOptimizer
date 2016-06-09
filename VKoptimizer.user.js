@@ -29,3 +29,5 @@ addGlobalStyle('.crisp_image {display:none !important}');
 addGlobalStyle('.im-chat-input--text {font-family: Arial !important;color: #000 !important;}');
 //Изменяем шрифт в окне создания поста
 addGlobalStyle('#post_field {font-family: Arial !important;color: #000 !important;}');
+//...Шрифт окна комментов тоже меняем
+addGlobalStyle('#reply_field {font-family: Arial !important;color: #000 !important;}');
