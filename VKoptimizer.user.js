@@ -3,7 +3,7 @@
 // @namespace    http://vk.com/
 // @updateURL   https://github.com/paulpotseluev/VKOptimizer/raw/master/VKoptimizer.user.js
 // @downloadURL https://github.com/paulpotseluev/VKOptimizer/raw/master/VKoptimizer.user.js
-// @version      0.43.5
+// @version      0.43.6
 // @description  Скрипт, изменяющий внешний вид страницы ВКонтакте с новым дизайном для более удобного восприятия.
 // @author       Paul Potseluev
 // @match        https://new.vk.com/*
@@ -25,6 +25,8 @@ addGlobalStyle('.is_rtl {font-family:Arial !important}');
 addGlobalStyle('#profile_photos_module {height:40px !important}');
 //Скрываем фотографии с экрана
 addGlobalStyle('.crisp_image {display:none !important}');
+//Включаем первьюшки видео
+addGlobalStyle('.video_item_thumb {display:block !important}');
 //Изменяем шрифт в окне диалогов:
 addGlobalStyle('.im-chat-input--text {font-family: Arial !important;color: #000 !important;}');
 //Изменяем шрифт в окне создания поста
