@@ -3,7 +3,7 @@
 // @namespace    http://vk.com/
 // @updateURL   https://github.com/paulpotseluev/VKOptimizer/raw/master/VKoptimizer.round.user.js
 // @downloadURL https://github.com/paulpotseluev/VKOptimizer/raw/master/VKoptimizer.round.user.js
-// @version      0.43.3
+// @version      0.43.4
 // @description  Скрипт, изменяющий внешний вид страницы ВКонтакте с новым дизайном для более удобного восприятия. Аватарки и фотографии — круглые.
 // @author       Paul Potseluev
 // @match        https://new.vk.com/*
@@ -20,7 +20,7 @@ function addGlobalStyle(css) {
     head.appendChild(style);
 }
 //Изменяем шрифт на нормальный
-addGlobalStyle('.is_rtl {font-family:Arial !important}');
+addGlobalStyle('body {font-family:Arial !important}');
 //Сокращаем высоту блока фотографий на странице профиля
 addGlobalStyle('#profile_photos_module {height:40px !important}');
 //Скрываем фотографии с экрана

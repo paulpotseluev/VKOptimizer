@@ -20,7 +20,7 @@ function addGlobalStyle(css) {
     head.appendChild(style);
 }
 //Изменяем шрифт на нормальный
-addGlobalStyle('.is_rtl {font-family:Arial !important}');
+addGlobalStyle('body {font-family:Arial !important}');
 //Сокращаем высоту блока фотографий на странице профиля
 addGlobalStyle('#profile_photos_module {height:40px !important}');
 //Скрываем фотографии с экрана
